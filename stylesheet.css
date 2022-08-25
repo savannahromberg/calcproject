@@ -1,0 +1,4 @@
+.frame{width:80%; margin:0 auto; border:1px solid #444; height:500px}
+.centered{text-align:center}
+.box{background:grey; height:50px; width:50px; border:2px solid grey; float:right}
+.clr{clear:both}
