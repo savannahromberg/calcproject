@@ -1,4 +1,19 @@
-.frame{width:80%; margin:0 auto; border:1px solid #444; height:500px}
-.centered{text-align:center}
-.box{background:grey; height:50px; width:50px; border:2px solid grey; float:right}
+.frame{width: 50vh; margin: 0 auto; border:1px solid #444; height:60vh}
+.centered{text-align: center}
+.box{height:50px; width: auto; border:2px solid rgb(191, 188, 188); margin: 1%;}
 .clr{clear:both}
+
+h1{text-align: center;}
+
+.buttons{
+    display: flex;
+    flex-flow: column wrap;
+    flex-grow: 1;
+    margin: 10px;
+}
+.buttons>* {
+    margin: 10px;
+    justify-content: center;
+}
+
+#display{text-align: right;}
